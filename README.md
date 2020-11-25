@@ -1,7 +1,7 @@
 # InsertionSortStatistics
 Statistics on insertion sort.<br/>
 Compute time to sort an array generate randomly and generate in descending order.<br/>
-The descending order generation is the worst case to sort an array of insertion sort.<br/>
+The descending order generation is the worst case to sort.<br/>
 
 Data can be exported in CSV file.<br/>
 
