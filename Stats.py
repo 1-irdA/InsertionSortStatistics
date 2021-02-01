@@ -91,13 +91,13 @@ class Stats:
         Display test informations
     """
     def informations(self):
-        return 'Temps total de tri : {} secondes\n'\
+        return 'Temps total de tri : \n{} secondes\n'\
             '------------------------------------------------------------------------------------------\n'\
-            'Tri total ordre décroissant : {} secondes\n'\
-            'Moyenne de tri décroissant : {} secondes\n'\
+            'Tri total ordre décroissant : \n{} secondes\n'\
+            'Moyenne de tri décroissant : \n{} secondes\n'\
             '------------------------------------------------------------------------------------------\n'\
-            'Tri total aléatoire : {} secondes\n'\
-            'Moyenne de tri aléatoire : {} secondes\n'\
+            'Tri total aléatoire : \n{} secondes\n'\
+            'Moyenne de tri aléatoire : \n{} secondes\n'\
             '------------------------------------------------------------------------------------------\n'\
             .format(self.total_time, 
                     self.desc_time, 

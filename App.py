@@ -17,9 +17,9 @@ class Application(tk.Tk):
         Put widgets
     """
     def create_widgets(self):
-        self.geometry('600x600')
+        self.geometry('600x700')
         self.resizable(height=None, width=None)
-        self.maxsize(width=600, height=600)
+        self.maxsize(width=600, height=700)
         self.iconbitmap('growth.ico')
         self.title("Statistiques tri par insertion")
 
@@ -79,7 +79,7 @@ class Application(tk.Tk):
                 command=lambda: self.display_charts()).place(x=380, y=260)
 
         self.label_results = tk.Label(self, font=22, anchor='n')
-        self.label_results.place(y=380, relheight=0.6, relwidth=1)
+        self.label_results.place(y=320, relheight=0.6, relwidth=1)
 
     """
         Generate stats and charts

@@ -1,5 +1,7 @@
 # InsertionSortStatistics
-Statistics on insertion sort.<br/>
+
+![Alt text](demo.PNG?raw=true "Demo")  
+
 Compute time to sort an array generate randomly and generate in descending order.<br/>
 The descending order generation is the worst case to sort.<br/>
 
