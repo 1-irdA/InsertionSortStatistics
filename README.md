@@ -1,4 +1,4 @@
-# InsertionSortStatistics
+# insertion-sort-statistics
 
 ![Alt text](demo.PNG?raw=true "Demo")  
 
