@@ -20,7 +20,7 @@ class Application(tk.Tk):
         self.geometry('600x700')
         self.resizable(height=None, width=None)
         self.maxsize(width=600, height=700)
-        self.iconbitmap('growth.ico')
+        self.iconbitmap('assets/growth.ico')
         self.title("Statistiques tri par insertion")
 
         # title
@@ -47,7 +47,7 @@ class Application(tk.Tk):
                 text="Nom du fichier",
                 font=('Helvetica', 12)).place(x=85, y=220)
         self.entry_path = tk.Entry(self, width=20)
-        self.entry_path.insert(1, 'stats.csv')
+        self.entry_path.insert(1, 'docs/stats.csv')
         self.entry_path.place(x=250, y=220)
 
         # button to generate

@@ -1,6 +1,6 @@
 # insertion-sort-statistics
 
-![Alt text](demo.PNG?raw=true "Demo")  
+![Alt text](assets/demo.PNG?raw=true "Demo")  
 
 Compute time to sort an array generate randomly and generate in descending order.<br/>
 The descending order generation is the worst case to sort.<br/>
